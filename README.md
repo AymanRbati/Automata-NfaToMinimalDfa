@@ -5,6 +5,7 @@
 Dans la premier page,l'utilisateur entre les informations du graphe: nombre d'états,nombre de symboles,les symoboles désirés,etat initial,etat final
 le nombre de symboles sans epsilons
 S'il ya epsilone il faule l'écrire dans les symboles "epsilone"
+
 Dans la deusieme page , l'utilisateur dessine le graphe et choisit de le déterminer ou le minimiser
 Et le graphe résultat va etre dessiné 
 
