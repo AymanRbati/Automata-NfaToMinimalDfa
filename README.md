@@ -1,0 +1,34 @@
+# Automata-NfaToMinimalDfa
+****************************************************************************************************************************
+*******************Determinisation et minimisation d'un AFN en utilisant JAVA-JSP-RAPHAEL framework*************************
+****************************************************************************************************************************
+Dans la premier page,l'utilisateur entre les informations du graphe: nombre d'états,nombre de symboles,les symoboles désirés,etat initial,etat final
+le nombre de symboles sans epsilons
+S'il ya epsilone il faule l'écrire dans les symboles "epsilone"
+Dans la deusieme page , l'utilisateur dessine le graphe et choisit de le déterminer ou le minimiser
+Et le graphe résultat va etre dessiné 
+
+la servlette contient le controlleur en java qui contient l'algorithme 
+
+Parfois ca marche pas (due aux problemes à la liasin entre le controlleur et Js),
+Mais ca marche toujours dans le classe programme.java 
+
+********************************remarque sur la saisie des donnees********************
+
+pour l'interface c'est un drag and drop:
+il faut clicker sur le cercle et puis le drager
+le drag se fait qu'une seule fois (si vous deplacer un cercle danss un endroi vous ne pouvez le changer)
+puis le deuxieme cercle 
+puis vous clicker  sur le cercle et vous tirez vers l'autre pour que le ligne  se dessine (si la ligne n'est pa dessiné des le 1er tire commencez)
+puis une case d'inout texte s'affiche vous faites entrer votre pas(symbole) //
+cas de plsr symbole il faut les separer par un virgule
+si un etat part vers lui meme il faut faire un click droit sur le cercle
+si vous dessiner un graphe avec epsilon il faut ecrire un etoit '*'
+si une erreur d'envoi de donnee est produite sur la servlet et le resultat n'est pa afficher vous pouvez lancer la page auto_dessin qui dessine un graphe en se basant sur une tabelau donnee
+
+***********************************************************************************************************************
+*******************Réalise par   :  Ayman RBATI,Oumayma KHAYE *********************************************************
+*******************Encadré par   :  Youssef BADDI             ******************************************************************************
+*******************Filière       :  Génie informatique        **************************************************************************************
+*******************Etablissement :  ENSAk                     *********************************************************
+************************************************************************************************************************************
