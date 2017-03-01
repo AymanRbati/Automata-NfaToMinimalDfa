@@ -10,7 +10,7 @@ Et le graphe résultat va etre dessiné
 
 la servlette contient le controlleur en java qui contient l'algorithme 
 
-Parfois ca marche pas (due aux problemes à la liasin entre le controlleur et Js),
+Parfois ca marche pas (due aux problemes à la liasion entre le controlleur et Js),
 Mais ca marche toujours dans le classe test.java (run as java application)
 
 ********************************remarque sur la saisie des donnees********************
